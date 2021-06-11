@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="1" guice-stage="DEVELOPMENT" name="Failed suite [TestSuite]">
+  <test thread-count="1" name="Test1(failed)">
+    <parameter name="upass" value="admin123"/>
+    <parameter name="uname" value="kumar"/>
+    <parameter name="url" value="https://opensource-demo.orangehrmlive.com/index.php/auth/login"/>
+    <classes>
+      <class name="com.OrangeHRM.OrangeHRM_Parameter_Example">
+        <methods>
+          <include name="CloseBrowser"/>
+          <include name="Login" invocation-numbers="0"/>
+          <include name="LaunchBrowser"/>
+        </methods>
+      </class> <!-- com.OrangeHRM.OrangeHRM_Parameter_Example -->
+    </classes>
+  </test> <!-- Test1(failed) -->
+  <test thread-count="1" name="Test2(failed)">
+    <parameter name="upass" value="admin123"/>
+    <parameter name="uname" value="kumar"/>
+    <parameter name="url" value="https://opensource-demo.orangehrmlive.com/index.php/auth/login"/>
+    <classes>
+      <class name="com.OrangeHRM.OrangeHRM_Parameter_Example">
+        <methods>
+          <include name="CloseBrowser"/>
+          <include name="Login" invocation-numbers="0"/>
+          <include name="LaunchBrowser"/>
+        </methods>
+      </class> <!-- com.OrangeHRM.OrangeHRM_Parameter_Example -->
+    </classes>
+  </test> <!-- Test2(failed) -->
+  <test thread-count="1" name="Test3(failed)">
+    <parameter name="upass" value="admin123"/>
+    <parameter name="uname" value="dixit"/>
+    <parameter name="url" value="https://opensource-demo.orangehrmlive.com/index.php/auth/login"/>
+    <classes>
+      <class name="com.OrangeHRM.OrangeHRM_Parameter_Example">
+        <methods>
+          <include name="CloseBrowser"/>
+          <include name="Login" invocation-numbers="0"/>
+          <include name="LaunchBrowser"/>
+        </methods>
+      </class> <!-- com.OrangeHRM.OrangeHRM_Parameter_Example -->
+    </classes>
+  </test> <!-- Test3(failed) -->
+  <test thread-count="1" name="Test4(failed)">
+    <parameter name="upass" value="admin123"/>
+    <parameter name="uname" value="Bharath"/>
+    <parameter name="url" value="https://opensource-demo.orangehrmlive.com/index.php/auth/login"/>
+    <classes>
+      <class name="com.OrangeHRM.OrangeHRM_Parameter_Example">
+        <methods>
+          <include name="CloseBrowser"/>
+          <include name="Login" invocation-numbers="0"/>
+          <include name="LaunchBrowser"/>
+        </methods>
+      </class> <!-- com.OrangeHRM.OrangeHRM_Parameter_Example -->
+    </classes>
+  </test> <!-- Test4(failed) -->
+</suite> <!-- Failed suite [TestSuite] -->
